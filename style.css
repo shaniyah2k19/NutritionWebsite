@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+  background-image: url(img_fruit.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 21px;
+}
+#foodInput {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+#searchButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+#searchButton:hover {
+  background-color: gray;
+}
+#nutritionResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.food-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+.food-item h2 {
+  margin: 0;
+}
+.food-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
+.container {
+  text-align: center;
+}
+.search-container {
+  margin-bottom: 20px;
+}
