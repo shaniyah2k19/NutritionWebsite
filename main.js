@@ -1,4 +1,6 @@
 // main.js
+// Application Key: 7c335779213803c4e535a2216d4637e4
+// Application ID: 66c8a035 
 
 //Waiting for the DOM content to be fully loaded before executing the script
 document.addEventListener('DOMContentLoaded', () => {
